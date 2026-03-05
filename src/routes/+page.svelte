@@ -3,7 +3,6 @@
     import SeeSnail2 from "$lib/images/monochrome/seesnail2.jpg";
 
     let isRunning = true;
-    let visible = false;
 </script>
 
 <main>
@@ -15,7 +14,6 @@
                 class="snail1"
                 style="--play-state: {isRunning ? 'running' : 'paused'}"
             />
-            <div class="showTxt">Click to stop me</div>
             <img
                 src={SeeSnail2}
                 alt="snail"
@@ -32,13 +30,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .showTxt {
-        display: none;
-        border: 2px solid black;
-        z-index: 3;
-        position: absolute;
     }
 
     .snailBtn {
