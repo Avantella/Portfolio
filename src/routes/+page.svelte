@@ -50,7 +50,7 @@
         max-height: 70%;
         position: absolute;
 
-        animation: slidetoright 40s infinite;
+        animation: slidetoright 200s infinite;
 
         animation-delay: 10s;
         z-index: 1;
@@ -66,7 +66,7 @@
 
         position: absolute;
         z-index: 1;
-        animation: slidefromleft 40s infinite;
+        animation: slidefromleft 200s infinite;
         animation-play-state: var(--play-state, paused);
         animation-delay: 10s;
     }
