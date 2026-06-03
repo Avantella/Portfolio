@@ -69,17 +69,23 @@
         padding: 1rem 2rem;
         min-height: 63vh;
         margin-bottom: 10px;
+       
+        z-index: 1;
+        position: relative;
     }
     img {
         height: 300px;
         object-fit: scale-down;
         object-position: center;
         border: 0.1rem black solid;
-        filter: drop-shadow(2px 2px 0px rgb(215, 215, 215));
+        /* filter: drop-shadow(2px 2px 0px rgb(215, 215, 215)); */
+ 
+        /* z-index: 1;
+        position: relative; */
     }
 
     img:hover {
-        filter: drop-shadow(2px 2px 0px rgb(177, 177, 177));
+        /* filter: drop-shadow(2px 2px 0px rgb(177, 177, 177)); */
         height: 301px;
     }
 

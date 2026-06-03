@@ -23,7 +23,7 @@
         bottom: 0;
         position: sticky;
         background-color: #fff;
-        z-index: 2;
+        z-index: 6;
     }
     .footer-links {
         display: flex;

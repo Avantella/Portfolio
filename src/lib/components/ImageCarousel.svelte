@@ -26,7 +26,7 @@
         overflow: hidden;
 
         position: fixed;
-        z-index: 20;
+        z-index: 7;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -40,6 +40,7 @@
         justify-content: center;
         align-items: center;
         /* background-color: red; */
+        
     }
 
     .imgCont {
