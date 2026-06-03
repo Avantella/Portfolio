@@ -26,7 +26,7 @@
         overflow: hidden;
 
         position: fixed;
-        z-index: 7;
+        z-index: 10;
         justify-content: center;
         align-items: center;
         display: flex;
