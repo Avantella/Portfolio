@@ -65,7 +65,7 @@
         top: 0;
         position: sticky;
         background-color: #fff;
-        z-index: 6;
+        z-index: 10;
     }
 
     h1 {

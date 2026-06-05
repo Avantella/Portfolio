@@ -55,7 +55,7 @@
     min-height: 140px;
 
     max-width: 700px;
-    max-height: 850px;
+    max-height: 600px;
     position: absolute;
 
     animation: slidetoright 200s infinite;
@@ -76,7 +76,7 @@
     min-height: 140px;
 
     max-width: 700px;
-    max-height: 850px;
+    max-height: 600px;
 
     position: absolute;
     z-index: 1;
