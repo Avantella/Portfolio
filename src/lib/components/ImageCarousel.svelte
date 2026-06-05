@@ -83,8 +83,10 @@
     }
 
     .bigImg {
-        max-height: 95vh;
-        min-height: 95vh;
+        max-height: 70vh;
+        min-height: 70vh;
         border: 11px solid black;
+        position: absolute;
+        bottom: 5%;
     }
 </style>

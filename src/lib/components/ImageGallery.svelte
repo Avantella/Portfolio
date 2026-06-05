@@ -77,6 +77,8 @@
         object-position: center;
         border: 0.1rem black solid;
         filter: drop-shadow(2px 2px 0px rgb(215, 215, 215));
+        /* z-index: 10;
+        position: relative; */
  
     }
 

@@ -2,6 +2,7 @@
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 	import avantella from "$lib/assets/avantella5.svg";
+  import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 
 	let { children } = $props();
 </script>
@@ -13,6 +14,7 @@
 	<Header />
 	<main>
 		{@render children()}
+		<!-- <ImageCarousel/> -->
 	</main>
 	<Footer />
 
