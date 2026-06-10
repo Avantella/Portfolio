@@ -47,7 +47,7 @@
         /* background-color: red; */
         height: 90vh;
         width: 47vw;
-        align-items: end;
+        align-items: center;
         justify-content: center;
         display: flex;
     }
@@ -86,7 +86,7 @@
     }
 
     .bigImg {
-        max-height: 70vh;
+        max-height: 90vh;
         /* min-height: 70vh; */
         max-width: 80vw;
         border: 11px solid black;
