@@ -69,6 +69,7 @@
         padding: 1rem 2rem;
         min-height: 63vh;
         margin-bottom: 10px;
+        z-index: 1;
     }
     img {
         height: 300px;
