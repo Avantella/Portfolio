@@ -23,10 +23,10 @@
         height: 100%;
         width: 120%;
         top: 0px;
-        overflow: hidden;
+        /* overflow: hidden; */
 
         position: fixed;
-        z-index: 10;
+        z-index: 999;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -45,8 +45,9 @@
 
     .imgCont {
         /* background-color: red; */
+        height: 90vh;
         width: 47vw;
-        align-items: center;
+        align-items: end;
         justify-content: center;
         display: flex;
     }
@@ -70,13 +71,15 @@
     .navBtns {
         background-color: transparent;
         border-style: none;
-        color: #fff;
+        color: #d5d5d5;
         font-size: 300px;
         height: 45vh;
         width: 300px;
         display: flex;
         justify-content: center;
         /* background-color: pink; */
+        z-index: 20;
+        /* border: 1px solid grey; */
     }
     .navBtns:hover {
         color: rgb(160, 160, 160);
@@ -84,9 +87,9 @@
 
     .bigImg {
         max-height: 70vh;
-        min-height: 70vh;
+        /* min-height: 70vh; */
+        max-width: 80vw;
         border: 11px solid black;
         position: absolute;
-        bottom: 5%;
     }
 </style>

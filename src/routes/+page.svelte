@@ -46,16 +46,16 @@
   }
 
   .snail1 {
-    /* min-width: 30%;
-        min-height: 60%; */
-    /* max-width: 70%;
-        max-height: 70%; */
+    min-width: 30%;
+        min-height: 60%;
+    max-width: 80%;
+        max-height: 70%;
 
-    min-width: 10px;
-    min-height: 140px;
+    /* min-width: 10px;
+    min-height: 140px; */
 
-    max-width: 700px;
-    max-height: 600px;
+    /* max-width: 700px;
+    max-height: 550px; */
     position: absolute;
 
     animation: slidetoright 200s infinite;
@@ -67,16 +67,16 @@
   }
 
   .snail2 {
-    /* min-width: 30%;
-        min-height: 60%; */
-    /* max-width: 70%;
-        max-height: 70%; */
-
+    min-width: 30%;
+        min-height: 60%;
+    max-width: 80%;
+        max-height: 70%;
+/* 
     min-width: 10px;
     min-height: 140px;
 
     max-width: 700px;
-    max-height: 600px;
+    max-height: 550px; */
 
     position: absolute;
     z-index: 1;

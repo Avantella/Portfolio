@@ -14,7 +14,6 @@
 	<Header />
 	<main>
 		{@render children()}
-		<!-- <ImageCarousel/> -->
 	</main>
 	<Footer />
 
